@@ -14,4 +14,8 @@ def about():
 
 @app.route('/contact')
 def contact():
-    return "Contact"
+    data = {
+        'email': 'darrenptran@gmail.com',
+        'phone': '858-610-3500'
+    }
+    return data
